@@ -1,0 +1,107 @@
+{
+  "cached_at": "2026-06-20T13:34:30.165678",
+  "startups": [
+    {
+      "name": "Cardstock",
+      "monthly_revenue": 120000.0,
+      "revenue_display": "$120K/mo",
+      "arr_display": "$1.4M ARR",
+      "description": "I Turned My Hobby Into $120K/Month Apps",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/i-turned-my-hobby-into-120k-month-apps",
+      "published_date": "2026-06-07",
+      "founder": "",
+      "tags": [
+        "bootstrapped",
+        "interview",
+        "vetted"
+      ]
+    },
+    {
+      "name": "Brumate",
+      "monthly_revenue": 1100000.0,
+      "revenue_display": "$1.1M/mo",
+      "arr_display": "$13.2M ARR",
+      "description": "I Grew A Drinkware Brand To $1.1M/Month",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/brumate",
+      "published_date": "",
+      "founder": "",
+      "tags": [
+        "bootstrapped",
+        "interview",
+        "vetted"
+      ]
+    },
+    {
+      "name": "Supademo",
+      "monthly_revenue": 200000.0,
+      "revenue_display": "$200K/mo",
+      "arr_display": "$2.4M ARR",
+      "description": "How My Demo App Makes $200K/Month",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/supademo",
+      "published_date": "",
+      "founder": "",
+      "tags": [
+        "bootstrapped",
+        "interview",
+        "vetted"
+      ]
+    },
+    {
+      "name": "Design In Dc",
+      "monthly_revenue": 150000.0,
+      "revenue_display": "$150K/mo",
+      "arr_display": "$1.8M ARR",
+      "description": "Going From University Professor to Agency Founder Successful startup Services United States $100k-$500k/mo Ziad Foty January 24, 2023",
+      "source": "Failory",
+      "source_url": "https://www.failory.com",
+      "article_url": "https://www.failory.com/interview/design-in-dc",
+      "published_date": "January 24, 2023",
+      "founder": "",
+      "tags": [
+        "interview",
+        "vetted",
+        "founder-story"
+      ]
+    },
+    {
+      "name": "Photobooth Supply",
+      "monthly_revenue": 150000.0,
+      "revenue_display": "$150K/mo",
+      "arr_display": "$1.8M ARR",
+      "description": "Growing a Photobooth Startup to Six Figures per Month Successful startup Services United States $100k-$500k/mo Brandon Wong December 14, 2021",
+      "source": "Failory",
+      "source_url": "https://www.failory.com",
+      "article_url": "https://www.failory.com/interview/photobooth-supply",
+      "published_date": "December 14, 2021",
+      "founder": "",
+      "tags": [
+        "interview",
+        "vetted",
+        "founder-story"
+      ]
+    },
+    {
+      "name": "Zenmaid",
+      "monthly_revenue": 150000.0,
+      "revenue_display": "$150K/mo",
+      "arr_display": "$1.8M ARR",
+      "description": "How a Non-Technical SaaS Founder Built a $1.5M ARR Business Working From 30+ Countries Successful startup Software & Hardware Remote $100k-$500k/mo Amar Ghose December 7, 2021",
+      "source": "Failory",
+      "source_url": "https://www.failory.com",
+      "article_url": "https://www.failory.com/interview/zenmaid",
+      "published_date": "December 7, 2021",
+      "founder": "",
+      "tags": [
+        "interview",
+        "vetted",
+        "founder-story"
+      ]
+    }
+  ]
+}

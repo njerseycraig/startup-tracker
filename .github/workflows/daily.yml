@@ -1,0 +1,35 @@
+name: Daily Startup Dashboard Refresh
+
+on:
+  schedule:
+    - cron: '0 12 * * *'   # Runs daily at 12:00 UTC (8 AM ET)
+  workflow_dispatch:         # Also allows manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run dashboard scraper
+        run: python startups_dashboard.py --no-browser --refresh
+
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html startup_cache.json
+          git diff --staged --quiet || git commit -m "Daily update: $(date -u '+%Y-%m-%d')"
+          git push
