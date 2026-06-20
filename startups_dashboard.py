@@ -608,10 +608,26 @@ def save_cache(startups: list[dict]):
         )
 
 
+def _is_too_old(entry: dict) -> bool:
+    """Return True if the article/interview date is more than 12 months ago."""
+    date_str = entry.get("published_date", "")
+    if not date_str:
+        return False  # no date = can't tell, keep it
+    for fmt in ("%Y-%m-%d", "%B %d, %Y", "%b %d, %Y"):
+        try:
+            dt = datetime.strptime(date_str, fmt)
+            return (datetime.now() - dt).days > 365
+        except ValueError:
+            pass
+    return False
+
+
 def dedup(items: list[dict]) -> list[dict]:
     seen: set[str] = set()
     out = []
     for item in items:
+        if _is_too_old(item):
+            continue
         key = item.get("article_url") or item.get("name") or ""
         if key and key not in seen:
             seen.add(key)

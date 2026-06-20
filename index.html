@@ -96,15 +96,15 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 
 <div class="header">
   <h1>🚀 <em>Bootstrapped</em> Startup Tracker</h1>
-  <div class="upd">Updated 2026-06-20 13:34<br>Auto-refreshes every 24 hours</div>
+  <div class="upd">Updated 2026-06-20 13:44<br>Auto-refreshes every 24 hours</div>
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">9</div><div class="stat-lbl">Companies</div></div>
+  <div class="stat"><div class="stat-val">3</div><div class="stat-lbl">Companies</div></div>
   <div class="stat"><div class="stat-val">$1.1M/mo</div><div class="stat-lbl">Top Monthly Revenue</div></div>
   <div class="stat"><div class="stat-val">$13.2M ARR</div><div class="stat-lbl">Top ARR</div></div>
-  <div class="stat"><div class="stat-val">$267K/mo</div><div class="stat-lbl">Avg Monthly Revenue</div></div>
-  <div class="stat"><div class="stat-val">3</div><div class="stat-lbl">Sources</div></div>
+  <div class="stat"><div class="stat-val">$473K/mo</div><div class="stat-lbl">Avg Monthly Revenue</div></div>
+  <div class="stat"><div class="stat-val">1</div><div class="stat-lbl">Sources</div></div>
 </div>
 
 <div class="note">
@@ -118,7 +118,7 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 <div class="controls">
   <span class="ctrl-lbl">Source:</span>
   <select id="src-sel" onchange="filter()">
-    <option value="">All Sources</option><option value="Failory">Failory</option><option value="Indie Hackers">Indie Hackers</option><option value="Starter Story">Starter Story</option>
+    <option value="">All Sources</option><option value="Starter Story">Starter Story</option>
   </select>
   <span class="ctrl-lbl">Min revenue:</span>
   <select id="rev-sel" onchange="filter()">
@@ -130,7 +130,7 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
   <span class="ctrl-lbl">Sort:</span>
   <button class="sort-btn active" id="btn-rev" onclick="sort('revenue')">Revenue ↓</button>
   <button class="sort-btn" id="btn-date" onclick="sort('date')">Date ↓</button>
-  <span id="count">9 results</span>
+  <span id="count">3 results</span>
 </div>
 
 <div class="grid" id="grid">
@@ -145,16 +145,6 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
   <div class="meta"><span class="tag">bootstrapped</span><span class="tag">interview</span><span class="tag">vetted</span><span class="badge" style="background:#7c3aed">Starter Story</span></div>
   <a class="read-btn" href="https://www.starterstory.com/stories/brumate" target="_blank" rel="noopener">Read Story →</a>
 </div>
-<div class="card" data-revenue="285000" data-source="Indie Hackers" data-date="2024-01-01">
-  <div class="card-top">
-    <div class="co-name">Plausible Analytics</div>
-    <div class="rev-pill">$285K/mo</div>
-  </div>
-  <div class="arr"></div>
-  <p class="desc">Privacy-first Google Analytics alternative. Bootstrapped to $3.4M ARR with 2 founders, no VC. Publicly shares all revenue.</p>
-  <div class="meta"><span class="meta-item">👤 Uku Taht &amp; Marko Saric</span><span class="meta-item">📅 2024-01-01</span><span class="meta-item">🗓 Founded 2019</span><span class="tag">bootstrapped</span><span class="tag">open-revenue</span><span class="tag">SaaS</span><span class="tag">privacy</span><span class="badge" style="background:#2563eb">Indie Hackers</span></div>
-  <a class="read-btn" href="https://www.indiehackers.com/product/plausible" target="_blank" rel="noopener">Read Story →</a>
-</div>
 <div class="card" data-revenue="200000.0" data-source="Starter Story" data-date="">
   <div class="card-top">
     <div class="co-name">Supademo</div>
@@ -165,46 +155,6 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
   <div class="meta"><span class="tag">bootstrapped</span><span class="tag">interview</span><span class="tag">vetted</span><span class="badge" style="background:#7c3aed">Starter Story</span></div>
   <a class="read-btn" href="https://www.starterstory.com/stories/supademo" target="_blank" rel="noopener">Read Story →</a>
 </div>
-<div class="card" data-revenue="150000.0" data-source="Failory" data-date="January 24, 2023">
-  <div class="card-top">
-    <div class="co-name">Design In Dc</div>
-    <div class="rev-pill">$150K/mo</div>
-  </div>
-  <div class="arr">$1.8M ARR</div>
-  <p class="desc">Going From University Professor to Agency Founder Successful startup Services United States $100k-$500k/mo Ziad Foty January 24, 2023</p>
-  <div class="meta"><span class="meta-item">📅 January 24, 2023</span><span class="tag">interview</span><span class="tag">vetted</span><span class="tag">founder-story</span><span class="badge" style="background:#dc2626">Failory</span></div>
-  <a class="read-btn" href="https://www.failory.com/interview/design-in-dc" target="_blank" rel="noopener">Read Story →</a>
-</div>
-<div class="card" data-revenue="150000.0" data-source="Failory" data-date="December 14, 2021">
-  <div class="card-top">
-    <div class="co-name">Photobooth Supply</div>
-    <div class="rev-pill">$150K/mo</div>
-  </div>
-  <div class="arr">$1.8M ARR</div>
-  <p class="desc">Growing a Photobooth Startup to Six Figures per Month Successful startup Services United States $100k-$500k/mo Brandon Wong December 14, 2021</p>
-  <div class="meta"><span class="meta-item">📅 December 14, 2021</span><span class="tag">interview</span><span class="tag">vetted</span><span class="tag">founder-story</span><span class="badge" style="background:#dc2626">Failory</span></div>
-  <a class="read-btn" href="https://www.failory.com/interview/photobooth-supply" target="_blank" rel="noopener">Read Story →</a>
-</div>
-<div class="card" data-revenue="150000.0" data-source="Failory" data-date="December 7, 2021">
-  <div class="card-top">
-    <div class="co-name">Zenmaid</div>
-    <div class="rev-pill">$150K/mo</div>
-  </div>
-  <div class="arr">$1.8M ARR</div>
-  <p class="desc">How a Non-Technical SaaS Founder Built a $1.5M ARR Business Working From 30+ Countries Successful startup Software &amp; Hardware Remote $100k-$500k/mo Amar Ghose December 7, 2021</p>
-  <div class="meta"><span class="meta-item">📅 December 7, 2021</span><span class="tag">interview</span><span class="tag">vetted</span><span class="tag">founder-story</span><span class="badge" style="background:#dc2626">Failory</span></div>
-  <a class="read-btn" href="https://www.failory.com/interview/zenmaid" target="_blank" rel="noopener">Read Story →</a>
-</div>
-<div class="card" data-revenue="135000" data-source="Indie Hackers" data-date="2024-06-01">
-  <div class="card-top">
-    <div class="co-name">Transistor.fm</div>
-    <div class="rev-pill">$135K/mo</div>
-  </div>
-  <div class="arr"></div>
-  <p class="desc">Podcast hosting and analytics. Two-person bootstrapped team publicly shares monthly revenue updates on Indie Hackers.</p>
-  <div class="meta"><span class="meta-item">👤 Justin Jackson &amp; Jon Buda</span><span class="meta-item">📅 2024-06-01</span><span class="meta-item">🗓 Founded 2018</span><span class="tag">bootstrapped</span><span class="tag">open-revenue</span><span class="tag">SaaS</span><span class="tag">podcasting</span><span class="badge" style="background:#2563eb">Indie Hackers</span></div>
-  <a class="read-btn" href="https://www.indiehackers.com/product/transistor-fm" target="_blank" rel="noopener">Read Story →</a>
-</div>
 <div class="card" data-revenue="120000.0" data-source="Starter Story" data-date="2026-06-07">
   <div class="card-top">
     <div class="co-name">Cardstock</div>
@@ -214,16 +164,6 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
   <p class="desc">I Turned My Hobby Into $120K/Month Apps</p>
   <div class="meta"><span class="meta-item">📅 2026-06-07</span><span class="tag">bootstrapped</span><span class="tag">interview</span><span class="tag">vetted</span><span class="badge" style="background:#7c3aed">Starter Story</span></div>
   <a class="read-btn" href="https://www.starterstory.com/stories/i-turned-my-hobby-into-120k-month-apps" target="_blank" rel="noopener">Read Story →</a>
-</div>
-<div class="card" data-revenue="110000" data-source="Indie Hackers" data-date="2023-12-01">
-  <div class="card-top">
-    <div class="co-name">EmailOctopus</div>
-    <div class="rev-pill">$110K/mo</div>
-  </div>
-  <div class="arr"></div>
-  <p class="desc">Email marketing platform built by 2 founders, bootstrapped. Grew to $1.3M ARR without VC, reported on Indie Hackers.</p>
-  <div class="meta"><span class="meta-item">👤 Tom Evans &amp; Jonathan Bull</span><span class="meta-item">📅 2023-12-01</span><span class="meta-item">🗓 Founded 2014</span><span class="tag">bootstrapped</span><span class="tag">SaaS</span><span class="tag">email-marketing</span><span class="badge" style="background:#2563eb">Indie Hackers</span></div>
-  <a class="read-btn" href="https://www.indiehackers.com/product/emailoctopus" target="_blank" rel="noopener">Read Story →</a>
 </div>
   <div class="empty hidden" id="empty">
     <h3>No results match your filters</h3>
