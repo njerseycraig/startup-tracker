@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-07-01T14:36:58.131956",
+  "cached_at": "2026-07-02T14:01:44.241926",
   "startups": [
     {
       "name": "Cardstock",
@@ -45,6 +45,23 @@
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/supademo",
       "published_date": "",
+      "founder": "",
+      "tags": [
+        "bootstrapped",
+        "interview",
+        "vetted"
+      ]
+    },
+    {
+      "name": "How I Work 10M Year Serial Entrepreneur",
+      "monthly_revenue": 833333.33,
+      "revenue_display": "$833K/mo",
+      "arr_display": "$10.0M ARR",
+      "description": "How I Work: $10M/Year",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/how-i-work-10m-year-serial-entrepreneur",
+      "published_date": "2026-07-01",
       "founder": "",
       "tags": [
         "bootstrapped",
