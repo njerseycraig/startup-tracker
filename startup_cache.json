@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-07-12T13:20:21.997514",
+  "cached_at": "2026-07-13T14:34:55.304651",
   "startups": [
     {
       "name": "Cardstock",
@@ -10,7 +10,7 @@
       "source": "Starter Story",
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/i-turned-my-hobby-into-120k-month-apps",
-      "published_date": "2026-06-12",
+      "published_date": "2026-06-13",
       "founder": "",
       "tags": [
         "bootstrapped",
@@ -45,6 +45,23 @@
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/supademo",
       "published_date": "",
+      "founder": "",
+      "tags": [
+        "bootstrapped",
+        "interview",
+        "vetted"
+      ]
+    },
+    {
+      "name": "She Built This 300K Month App In 60 Days",
+      "monthly_revenue": 300000.0,
+      "revenue_display": "$300K/mo",
+      "arr_display": "$3.6M ARR",
+      "description": "Watch She Built This $300K/Month App in 60 Days 16.9K views \u2022 1 day ago",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days",
+      "published_date": "2026-07-12",
       "founder": "",
       "tags": [
         "bootstrapped",
