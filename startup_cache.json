@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-07-19T13:17:55.723292",
+  "cached_at": "2026-07-20T14:06:30.449121",
   "startups": [
     {
       "name": "Cardstock",
@@ -10,7 +10,7 @@
       "source": "Starter Story",
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/i-turned-my-hobby-into-120k-month-apps",
-      "published_date": "2026-06-19",
+      "published_date": "2026-06-20",
       "founder": "",
       "tags": [
         "bootstrapped",
@@ -53,15 +53,15 @@
       ]
     },
     {
-      "name": "She Built This 300K Month App In 60 Days",
-      "monthly_revenue": 300000.0,
-      "revenue_display": "$300K/mo",
-      "arr_display": "$3.6M ARR",
-      "description": "Watch She Built This $300K/Month App in 60 Days 36.2K views \u2022 8 days ago",
+      "name": "I Can T Believe This App Makes 100K Month",
+      "monthly_revenue": 100000.0,
+      "revenue_display": "$100K/mo",
+      "arr_display": "$1.2M ARR",
+      "description": "I Can't Believe This App Makes $100K/Month",
       "source": "Starter Story",
       "source_url": "https://www.starterstory.com",
-      "article_url": "https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days",
-      "published_date": "2026-07-11",
+      "article_url": "https://www.starterstory.com/stories/i-can-t-believe-this-app-makes-100k-month",
+      "published_date": "2026-07-19",
       "founder": "",
       "tags": [
         "bootstrapped",
@@ -70,15 +70,15 @@
       ]
     },
     {
-      "name": "How I Work 10M Year Serial Entrepreneur",
-      "monthly_revenue": 833333.33,
-      "revenue_display": "$833K/mo",
-      "arr_display": "$10.0M ARR",
-      "description": "How I Work: $10M/Year",
+      "name": "She Built This 300K Month App In 60 Days",
+      "monthly_revenue": 300000.0,
+      "revenue_display": "$300K/mo",
+      "arr_display": "$3.6M ARR",
+      "description": "Watch She Built This $300K/Month App in 60 Days 38.4K views \u2022 9 days ago",
       "source": "Starter Story",
       "source_url": "https://www.starterstory.com",
-      "article_url": "https://www.starterstory.com/stories/how-i-work-10m-year-serial-entrepreneur",
-      "published_date": "2026-06-30",
+      "article_url": "https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days",
+      "published_date": "2026-07-11",
       "founder": "",
       "tags": [
         "bootstrapped",
