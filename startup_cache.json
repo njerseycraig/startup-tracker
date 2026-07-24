@@ -1,23 +1,6 @@
 {
-  "cached_at": "2026-07-23T14:00:48.460492",
+  "cached_at": "2026-07-24T13:45:40.944099",
   "startups": [
-    {
-      "name": "Cardstock",
-      "monthly_revenue": 120000.0,
-      "revenue_display": "$120K/mo",
-      "arr_display": "$1.4M ARR",
-      "description": "I Turned My Hobby Into $120K/Month Apps",
-      "source": "Starter Story",
-      "source_url": "https://www.starterstory.com",
-      "article_url": "https://www.starterstory.com/stories/i-turned-my-hobby-into-120k-month-apps",
-      "published_date": "2026-05-24",
-      "founder": "",
-      "tags": [
-        "bootstrapped",
-        "interview",
-        "vetted"
-      ]
-    },
     {
       "name": "Brumate",
       "monthly_revenue": 1100000.0,
@@ -74,7 +57,7 @@
       "monthly_revenue": 300000.0,
       "revenue_display": "$300K/mo",
       "arr_display": "$3.6M ARR",
-      "description": "Watch She Built This $300K/Month App in 60 Days 42.4K views \u2022 12 days ago",
+      "description": "Watch She Built This $300K/Month App in 60 Days 43.5K views \u2022 13 days ago",
       "source": "Starter Story",
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/she-built-this-300k-month-app-in-60-days",
