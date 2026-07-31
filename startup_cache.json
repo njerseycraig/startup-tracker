@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-07-30T14:02:19.442937",
+  "cached_at": "2026-07-31T14:07:06.735542",
   "startups": [
     {
       "name": "Brumate",
@@ -28,6 +28,23 @@
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/supademo",
       "published_date": "",
+      "founder": "",
+      "tags": [
+        "bootstrapped",
+        "interview",
+        "vetted"
+      ]
+    },
+    {
+      "name": "I Grew My Saas From 17K To 143K Mrr In 4 Months",
+      "monthly_revenue": 143000.0,
+      "revenue_display": "$143K/mo",
+      "arr_display": "$1.7M ARR",
+      "description": "I Grew My SaaS From $17K",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/i-grew-my-saas-from-17k-to-143k-mrr-in-4-months",
+      "published_date": "2026-07-30",
       "founder": "",
       "tags": [
         "bootstrapped",
