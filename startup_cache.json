@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-08-02T13:21:26.539748",
+  "cached_at": "2026-08-03T14:38:56.124613",
   "startups": [
     {
       "name": "Brumate",
@@ -45,23 +45,6 @@
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/i-grew-my-saas-from-17k-to-143k-mrr-in-4-months",
       "published_date": "2026-07-29",
-      "founder": "",
-      "tags": [
-        "bootstrapped",
-        "interview",
-        "vetted"
-      ]
-    },
-    {
-      "name": "I Can T Believe This App Makes 100K Month",
-      "monthly_revenue": 100000.0,
-      "revenue_display": "$100K/mo",
-      "arr_display": "$1.2M ARR",
-      "description": "I Can't Believe This App Makes $100K/Month",
-      "source": "Starter Story",
-      "source_url": "https://www.starterstory.com",
-      "article_url": "https://www.starterstory.com/stories/i-can-t-believe-this-app-makes-100k-month",
-      "published_date": "2026-07-18",
       "founder": "",
       "tags": [
         "bootstrapped",
