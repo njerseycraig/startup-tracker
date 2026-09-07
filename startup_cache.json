@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-09-06T15:01:15.077653",
+  "cached_at": "2026-09-07T17:22:12.879843",
   "startups": [
     {
       "name": "Brumate",
@@ -33,6 +33,38 @@
         "bootstrapped",
         "interview",
         "vetted"
+      ]
+    },
+    {
+      "name": "",
+      "monthly_revenue": 100000.0,
+      "revenue_display": "$100K/mo",
+      "arr_display": "$1.2M ARR",
+      "description": "1 Clone The App Discover validated mobile app ideas This app is making $100K/month by helping people improve their social skills. 26",
+      "source": "Indie Hackers",
+      "source_url": "https://www.indiehackers.com",
+      "article_url": "https://www.indiehackers.com/product/clone-the-app?post=6Nam1dhLUQslH3ElH1vl",
+      "published_date": "",
+      "founder": "",
+      "tags": [
+        "indie-hackers",
+        "bootstrapped"
+      ]
+    },
+    {
+      "name": "",
+      "monthly_revenue": 100000.0,
+      "revenue_display": "$100K/mo",
+      "arr_display": "$1.2M ARR",
+      "description": "4 Clone The App Discover validated mobile app ideas A social skills app is making $100K/month 4",
+      "source": "Indie Hackers",
+      "source_url": "https://www.indiehackers.com",
+      "article_url": "https://www.indiehackers.com/product/clone-the-app?post=pZkzyg3vJBH4R8VwGUIl",
+      "published_date": "",
+      "founder": "",
+      "tags": [
+        "indie-hackers",
+        "bootstrapped"
       ]
     }
   ]
