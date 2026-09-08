@@ -96,15 +96,15 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 
 <div class="header">
   <h1>🚀 <em>Bootstrapped</em> Startup Tracker</h1>
-  <div class="upd">Updated 2026-09-07 17:22<br>Auto-refreshes every 24 hours</div>
+  <div class="upd">Updated 2026-09-08 16:06<br>Auto-refreshes every 24 hours</div>
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">4</div><div class="stat-lbl">Companies</div></div>
+  <div class="stat"><div class="stat-val">2</div><div class="stat-lbl">Companies</div></div>
   <div class="stat"><div class="stat-val">$1.1M/mo</div><div class="stat-lbl">Top Monthly Revenue</div></div>
   <div class="stat"><div class="stat-val">$13.2M ARR</div><div class="stat-lbl">Top ARR</div></div>
-  <div class="stat"><div class="stat-val">$375K/mo</div><div class="stat-lbl">Avg Monthly Revenue</div></div>
-  <div class="stat"><div class="stat-val">2</div><div class="stat-lbl">Sources</div></div>
+  <div class="stat"><div class="stat-val">$650K/mo</div><div class="stat-lbl">Avg Monthly Revenue</div></div>
+  <div class="stat"><div class="stat-val">1</div><div class="stat-lbl">Sources</div></div>
 </div>
 
 <div class="note">
@@ -118,7 +118,7 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 <div class="controls">
   <span class="ctrl-lbl">Source:</span>
   <select id="src-sel" onchange="filter()">
-    <option value="">All Sources</option><option value="Indie Hackers">Indie Hackers</option><option value="Starter Story">Starter Story</option>
+    <option value="">All Sources</option><option value="Starter Story">Starter Story</option>
   </select>
   <span class="ctrl-lbl">Min revenue:</span>
   <select id="rev-sel" onchange="filter()">
@@ -130,7 +130,7 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
   <span class="ctrl-lbl">Sort:</span>
   <button class="sort-btn active" id="btn-rev" onclick="sort('revenue')">Revenue ↓</button>
   <button class="sort-btn" id="btn-date" onclick="sort('date')">Date ↓</button>
-  <span id="count">4 results</span>
+  <span id="count">2 results</span>
 </div>
 
 <div class="grid" id="grid">
@@ -154,26 +154,6 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
   <p class="desc">How My Demo App Makes $200K/Month</p>
   <div class="meta"><span class="tag">bootstrapped</span><span class="tag">interview</span><span class="tag">vetted</span><span class="badge" style="background:#7c3aed">Starter Story</span></div>
   <a class="read-btn" href="https://www.starterstory.com/stories/supademo" target="_blank" rel="noopener">Read Story →</a>
-</div>
-<div class="card" data-revenue="100000.0" data-source="Indie Hackers" data-date="">
-  <div class="card-top">
-    <div class="co-name"></div>
-    <div class="rev-pill">$100K/mo</div>
-  </div>
-  <div class="arr">$1.2M ARR</div>
-  <p class="desc">1 Clone The App Discover validated mobile app ideas This app is making $100K/month by helping people improve their social skills. 26</p>
-  <div class="meta"><span class="tag">indie-hackers</span><span class="tag">bootstrapped</span><span class="badge" style="background:#2563eb">Indie Hackers</span></div>
-  <a class="read-btn" href="https://www.indiehackers.com/product/clone-the-app?post=6Nam1dhLUQslH3ElH1vl" target="_blank" rel="noopener">Read Story →</a>
-</div>
-<div class="card" data-revenue="100000.0" data-source="Indie Hackers" data-date="">
-  <div class="card-top">
-    <div class="co-name"></div>
-    <div class="rev-pill">$100K/mo</div>
-  </div>
-  <div class="arr">$1.2M ARR</div>
-  <p class="desc">4 Clone The App Discover validated mobile app ideas A social skills app is making $100K/month 4</p>
-  <div class="meta"><span class="tag">indie-hackers</span><span class="tag">bootstrapped</span><span class="badge" style="background:#2563eb">Indie Hackers</span></div>
-  <a class="read-btn" href="https://www.indiehackers.com/product/clone-the-app?post=pZkzyg3vJBH4R8VwGUIl" target="_blank" rel="noopener">Read Story →</a>
 </div>
   <div class="empty hidden" id="empty">
     <h3>No results match your filters</h3>
