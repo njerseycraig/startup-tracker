@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-09-09T16:01:32.839785",
+  "cached_at": "2026-09-10T15:55:47.256278",
   "startups": [
     {
       "name": "Brumate",
@@ -28,6 +28,23 @@
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/supademo",
       "published_date": "",
+      "founder": "",
+      "tags": [
+        "bootstrapped",
+        "interview",
+        "vetted"
+      ]
+    },
+    {
+      "name": "How I Built This 160K Month Gym App",
+      "monthly_revenue": 160000.0,
+      "revenue_display": "$160K/mo",
+      "arr_display": "$1.9M ARR",
+      "description": "How I Built This $160K/Month",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/how-i-built-this-160k-month-gym-app",
+      "published_date": "2026-09-09",
       "founder": "",
       "tags": [
         "bootstrapped",
