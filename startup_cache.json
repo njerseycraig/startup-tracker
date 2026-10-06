@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-10-04T16:31:58.137894",
+  "cached_at": "2026-10-06T18:00:34.750305",
   "startups": [
     {
       "name": "Brumate",
@@ -28,23 +28,6 @@
       "source_url": "https://www.starterstory.com",
       "article_url": "https://www.starterstory.com/stories/supademo",
       "published_date": "",
-      "founder": "",
-      "tags": [
-        "bootstrapped",
-        "interview",
-        "vetted"
-      ]
-    },
-    {
-      "name": "How I Work 140K Month App Developer",
-      "monthly_revenue": 140000.0,
-      "revenue_display": "$140K/mo",
-      "arr_display": "$1.7M ARR",
-      "description": "How I Work: $140K/Month",
-      "source": "Starter Story",
-      "source_url": "https://www.starterstory.com",
-      "article_url": "https://www.starterstory.com/stories/how-i-work-140k-month-app-developer",
-      "published_date": "2026-09-15",
       "founder": "",
       "tags": [
         "bootstrapped",
