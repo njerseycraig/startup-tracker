@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-10-17T15:04:47.286536",
+  "cached_at": "2026-10-18T15:28:15.832530",
   "startups": [
     {
       "name": "Brumate",
@@ -33,6 +33,22 @@
         "bootstrapped",
         "interview",
         "vetted"
+      ]
+    },
+    {
+      "name": "ShugertShopify Select Partner for DTC brands doing $500K\u2013$10M+$160,781/month-ver",
+      "monthly_revenue": 10000000.0,
+      "revenue_display": "$10.0M/mo",
+      "arr_display": "$120.0M ARR",
+      "description": "Shugert Shopify Select Partner for DTC brands doing $500K\u2013$10M+ $160,781 / month -verified revenue",
+      "source": "Indie Hackers",
+      "source_url": "https://www.indiehackers.com",
+      "article_url": "https://www.indiehackers.com/product/shugert",
+      "published_date": "",
+      "founder": "",
+      "tags": [
+        "indie-hackers",
+        "bootstrapped"
       ]
     }
   ]

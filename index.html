@@ -96,15 +96,15 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 
 <div class="header">
   <h1>🚀 <em>Bootstrapped</em> Startup Tracker</h1>
-  <div class="upd">Updated 2026-10-17 15:04<br>Auto-refreshes every 24 hours</div>
+  <div class="upd">Updated 2026-10-18 15:28<br>Auto-refreshes every 24 hours</div>
 </div>
 
 <div class="stats">
-  <div class="stat"><div class="stat-val">2</div><div class="stat-lbl">Companies</div></div>
-  <div class="stat"><div class="stat-val">$1.1M/mo</div><div class="stat-lbl">Top Monthly Revenue</div></div>
-  <div class="stat"><div class="stat-val">$13.2M ARR</div><div class="stat-lbl">Top ARR</div></div>
-  <div class="stat"><div class="stat-val">$650K/mo</div><div class="stat-lbl">Avg Monthly Revenue</div></div>
-  <div class="stat"><div class="stat-val">1</div><div class="stat-lbl">Sources</div></div>
+  <div class="stat"><div class="stat-val">3</div><div class="stat-lbl">Companies</div></div>
+  <div class="stat"><div class="stat-val">$10.0M/mo</div><div class="stat-lbl">Top Monthly Revenue</div></div>
+  <div class="stat"><div class="stat-val">$120.0M ARR</div><div class="stat-lbl">Top ARR</div></div>
+  <div class="stat"><div class="stat-val">$3.8M/mo</div><div class="stat-lbl">Avg Monthly Revenue</div></div>
+  <div class="stat"><div class="stat-val">2</div><div class="stat-lbl">Sources</div></div>
 </div>
 
 <div class="note">
@@ -118,7 +118,7 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 <div class="controls">
   <span class="ctrl-lbl">Source:</span>
   <select id="src-sel" onchange="filter()">
-    <option value="">All Sources</option><option value="Starter Story">Starter Story</option>
+    <option value="">All Sources</option><option value="Indie Hackers">Indie Hackers</option><option value="Starter Story">Starter Story</option>
   </select>
   <span class="ctrl-lbl">Min revenue:</span>
   <select id="rev-sel" onchange="filter()">
@@ -130,11 +130,21 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
   <span class="ctrl-lbl">Sort:</span>
   <button class="sort-btn active" id="btn-rev" onclick="sort('revenue')">Revenue ↓</button>
   <button class="sort-btn" id="btn-date" onclick="sort('date')">Date ↓</button>
-  <span id="count">2 results</span>
+  <span id="count">3 results</span>
 </div>
 
 <div class="grid" id="grid">
   
+<div class="card" data-revenue="10000000.0" data-source="Indie Hackers" data-date="">
+  <div class="card-top">
+    <div class="co-name">ShugertShopify Select Partner for DTC brands doing $500K–$10M+$160,781/month-ver</div>
+    <div class="rev-pill">$10.0M/mo</div>
+  </div>
+  <div class="arr">$120.0M ARR</div>
+  <p class="desc">Shugert Shopify Select Partner for DTC brands doing $500K–$10M+ $160,781 / month -verified revenue</p>
+  <div class="meta"><span class="tag">indie-hackers</span><span class="tag">bootstrapped</span><span class="badge" style="background:#2563eb">Indie Hackers</span></div>
+  <a class="read-btn" href="https://www.indiehackers.com/product/shugert" target="_blank" rel="noopener">Read Story →</a>
+</div>
 <div class="card" data-revenue="1100000.0" data-source="Starter Story" data-date="">
   <div class="card-top">
     <div class="co-name">Brumate</div>
