@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-10-30T17:46:13.941418",
+  "cached_at": "2026-10-31T16:54:28.250448",
   "startups": [
     {
       "name": "Brumate",
@@ -36,11 +36,27 @@
       ]
     },
     {
-      "name": "ShugertShopify Select Partner for DTC brands doing $500K\u2013$10M+$134,548/month-ver",
+      "name": "",
+      "monthly_revenue": 1200000.0,
+      "revenue_display": "$1.2M/mo",
+      "arr_display": "$14.4M ARR",
+      "description": "5 Empowered Cooks 800k YouTube, #1 & #2 Air Fryer Cookbooks, Cooking Community Empowered Cooks: $1.2M+ a year, and what we built to run it 1",
+      "source": "Indie Hackers",
+      "source_url": "https://www.indiehackers.com",
+      "article_url": "https://www.indiehackers.com/product/empowered-cooks?post=wE2zbZlHNJxY2Lu9N0Ei#post-wE2zbZlHNJxY2Lu9N0Ei",
+      "published_date": "",
+      "founder": "",
+      "tags": [
+        "indie-hackers",
+        "bootstrapped"
+      ]
+    },
+    {
+      "name": "ShugertShopify Select Partner for DTC brands doing $500K\u2013$10M+$142,771/month-ver",
       "monthly_revenue": 10000000.0,
       "revenue_display": "$10.0M/mo",
       "arr_display": "$120.0M ARR",
-      "description": "Shugert Shopify Select Partner for DTC brands doing $500K\u2013$10M+ $134,548 / month -verified revenue",
+      "description": "Shugert Shopify Select Partner for DTC brands doing $500K\u2013$10M+ $142,771 / month -verified revenue",
       "source": "Indie Hackers",
       "source_url": "https://www.indiehackers.com",
       "article_url": "https://www.indiehackers.com/product/shugert",
