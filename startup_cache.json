@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-11-01T17:41:47.184576",
+  "cached_at": "2026-11-02T21:27:12.232874",
   "startups": [
     {
       "name": "Brumate",
@@ -36,11 +36,28 @@
       ]
     },
     {
-      "name": "ShugertShopify Select Partner for DTC brands doing $500K\u2013$10M+$149,866/month-ver",
+      "name": "How I Built It 400K Month Ios App",
+      "monthly_revenue": 400000.0,
+      "revenue_display": "$400K/mo",
+      "arr_display": "$4.8M ARR",
+      "description": "How I Built It: $400K/Month",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/how-i-built-it-400k-month-ios-app",
+      "published_date": "2026-10-31",
+      "founder": "",
+      "tags": [
+        "bootstrapped",
+        "interview",
+        "vetted"
+      ]
+    },
+    {
+      "name": "ShugertShopify Select Partner for DTC brands doing $500K\u2013$10M+$152,393/month-ver",
       "monthly_revenue": 10000000.0,
       "revenue_display": "$10.0M/mo",
       "arr_display": "$120.0M ARR",
-      "description": "Shugert Shopify Select Partner for DTC brands doing $500K\u2013$10M+ $149,866 / month -verified revenue",
+      "description": "Shugert Shopify Select Partner for DTC brands doing $500K\u2013$10M+ $152,393 / month -verified revenue",
       "source": "Indie Hackers",
       "source_url": "https://www.indiehackers.com",
       "article_url": "https://www.indiehackers.com/product/shugert",
