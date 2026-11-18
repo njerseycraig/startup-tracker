@@ -1,5 +1,5 @@
 {
-  "cached_at": "2026-11-17T20:31:19.420017",
+  "cached_at": "2026-11-18T20:03:16.984352",
   "startups": [
     {
       "name": "Brumate",
@@ -36,19 +36,20 @@
       ]
     },
     {
-      "name": "ShugertShopify Select Partner for DTC brands doing $500K\u2013$10M+$214,912/month-ver",
-      "monthly_revenue": 10000000.0,
-      "revenue_display": "$10.0M/mo",
-      "arr_display": "$120.0M ARR",
-      "description": "Shugert Shopify Select Partner for DTC brands doing $500K\u2013$10M+ $214,912 / month -verified revenue",
-      "source": "Indie Hackers",
-      "source_url": "https://www.indiehackers.com",
-      "article_url": "https://www.indiehackers.com/product/shugert",
+      "name": "How I Built It 600K Month Saas",
+      "monthly_revenue": 600000.0,
+      "revenue_display": "$600K/mo",
+      "arr_display": "$7.2M ARR",
+      "description": "How I Built It: $600K/Month",
+      "source": "Starter Story",
+      "source_url": "https://www.starterstory.com",
+      "article_url": "https://www.starterstory.com/stories/how-i-built-it-600k-month-saas",
       "published_date": "",
       "founder": "",
       "tags": [
-        "indie-hackers",
-        "bootstrapped"
+        "bootstrapped",
+        "interview",
+        "vetted"
       ]
     }
   ]

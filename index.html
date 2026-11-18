@@ -96,15 +96,15 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 
 <div class="header">
   <h1>🚀 <em>Bootstrapped</em> Startup Tracker</h1>
-  <div class="upd">Updated 2026-11-17 20:31<br>Auto-refreshes every 24 hours</div>
+  <div class="upd">Updated 2026-11-18 20:03<br>Auto-refreshes every 24 hours</div>
 </div>
 
 <div class="stats">
   <div class="stat"><div class="stat-val">3</div><div class="stat-lbl">Companies</div></div>
-  <div class="stat"><div class="stat-val">$10.0M/mo</div><div class="stat-lbl">Top Monthly Revenue</div></div>
-  <div class="stat"><div class="stat-val">$120.0M ARR</div><div class="stat-lbl">Top ARR</div></div>
-  <div class="stat"><div class="stat-val">$3.8M/mo</div><div class="stat-lbl">Avg Monthly Revenue</div></div>
-  <div class="stat"><div class="stat-val">2</div><div class="stat-lbl">Sources</div></div>
+  <div class="stat"><div class="stat-val">$1.1M/mo</div><div class="stat-lbl">Top Monthly Revenue</div></div>
+  <div class="stat"><div class="stat-val">$13.2M ARR</div><div class="stat-lbl">Top ARR</div></div>
+  <div class="stat"><div class="stat-val">$633K/mo</div><div class="stat-lbl">Avg Monthly Revenue</div></div>
+  <div class="stat"><div class="stat-val">1</div><div class="stat-lbl">Sources</div></div>
 </div>
 
 <div class="note">
@@ -118,7 +118,7 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 <div class="controls">
   <span class="ctrl-lbl">Source:</span>
   <select id="src-sel" onchange="filter()">
-    <option value="">All Sources</option><option value="Indie Hackers">Indie Hackers</option><option value="Starter Story">Starter Story</option>
+    <option value="">All Sources</option><option value="Starter Story">Starter Story</option>
   </select>
   <span class="ctrl-lbl">Min revenue:</span>
   <select id="rev-sel" onchange="filter()">
@@ -135,16 +135,6 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
 
 <div class="grid" id="grid">
   
-<div class="card" data-revenue="10000000.0" data-source="Indie Hackers" data-date="">
-  <div class="card-top">
-    <div class="co-name">ShugertShopify Select Partner for DTC brands doing $500K–$10M+$214,912/month-ver</div>
-    <div class="rev-pill">$10.0M/mo</div>
-  </div>
-  <div class="arr">$120.0M ARR</div>
-  <p class="desc">Shugert Shopify Select Partner for DTC brands doing $500K–$10M+ $214,912 / month -verified revenue</p>
-  <div class="meta"><span class="tag">indie-hackers</span><span class="tag">bootstrapped</span><span class="badge" style="background:#2563eb">Indie Hackers</span></div>
-  <a class="read-btn" href="https://www.indiehackers.com/product/shugert" target="_blank" rel="noopener">Read Story →</a>
-</div>
 <div class="card" data-revenue="1100000.0" data-source="Starter Story" data-date="">
   <div class="card-top">
     <div class="co-name">Brumate</div>
@@ -154,6 +144,16 @@ select:focus { border-color: #7c3aed; box-shadow: 0 0 0 2px #ede9fe; }
   <p class="desc">I Grew A Drinkware Brand To $1.1M/Month</p>
   <div class="meta"><span class="tag">bootstrapped</span><span class="tag">interview</span><span class="tag">vetted</span><span class="badge" style="background:#7c3aed">Starter Story</span></div>
   <a class="read-btn" href="https://www.starterstory.com/stories/brumate" target="_blank" rel="noopener">Read Story →</a>
+</div>
+<div class="card" data-revenue="600000.0" data-source="Starter Story" data-date="">
+  <div class="card-top">
+    <div class="co-name">How I Built It 600K Month Saas</div>
+    <div class="rev-pill">$600K/mo</div>
+  </div>
+  <div class="arr">$7.2M ARR</div>
+  <p class="desc">How I Built It: $600K/Month</p>
+  <div class="meta"><span class="tag">bootstrapped</span><span class="tag">interview</span><span class="tag">vetted</span><span class="badge" style="background:#7c3aed">Starter Story</span></div>
+  <a class="read-btn" href="https://www.starterstory.com/stories/how-i-built-it-600k-month-saas" target="_blank" rel="noopener">Read Story →</a>
 </div>
 <div class="card" data-revenue="200000.0" data-source="Starter Story" data-date="">
   <div class="card-top">
